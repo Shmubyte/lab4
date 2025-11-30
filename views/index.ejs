@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<%- include('partials/head.ejs') %>
+<style>
+    body {
+        background-image:url("<%= image %>");
+        background-size: cover;
+    }
+    .content{
+        background-color: white;
+        opacity: 0.5;
+    }
+</style>
+<body>
+    <div class = "content">
+        <h1>The Solar System</h1>
+        <%- include('partials/nav.ejs') %>
+        <h2> Welcome to the Solar System Information Page!</h2>
+        <br>
+    
+
+        <%- include('partials/footer.ejs') %>
+        </div>  
+</body>
+</html>
